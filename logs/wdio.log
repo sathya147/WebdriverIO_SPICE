@@ -1,0 +1,174 @@
+2022-08-16T09:19:41.282Z INFO @wdio/local-runner: Run worker command: run
+2022-08-16T09:19:41.664Z INFO webdriver: Initiate new session using the WebDriver protocol
+2022-08-16T09:19:41.724Z INFO webdriver: [POST] http://localhost:9515/session
+2022-08-16T09:19:41.725Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true }
+}
+2022-08-16T09:19:42.370Z INFO webdriver: COMMAND navigateTo("http://3.111.106.69/")
+2022-08-16T09:19:42.371Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/url
+2022-08-16T09:19:42.371Z INFO webdriver: DATA { url: 'http://3.111.106.69/' }
+2022-08-16T09:19:47.966Z INFO webdriver: COMMAND takeScreenshot()
+2022-08-16T09:19:47.966Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/screenshot
+2022-08-16T09:19:48.086Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABhIAAAMSCAYAAACPk16JAAAAAXNSR0IArs4c6...
+2022-08-16T09:19:48.097Z INFO webdriver: COMMAND getTitle()
+2022-08-16T09:19:48.097Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/title
+2022-08-16T09:19:48.126Z INFO webdriver: RESULT SPICE
+2022-08-16T09:19:48.129Z INFO webdriver: COMMAND takeScreenshot()
+2022-08-16T09:19:48.129Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/screenshot
+2022-08-16T09:19:48.210Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABhIAAAMSCAYAAACPk16JAAAAAXNSR0IArs4c6...
+2022-08-16T09:19:48.218Z INFO webdriver: COMMAND findElement("css selector", "input[name="email"]")
+2022-08-16T09:19:48.218Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element
+2022-08-16T09:19:48.218Z INFO webdriver: DATA { using: 'css selector', value: 'input[name="email"]' }
+2022-08-16T09:19:48.233Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '79080bc2-5fd5-4fae-941d-fd6438007c09'
+}
+2022-08-16T09:19:48.240Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2022-08-16T09:19:48.240Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/execute/sync
+2022-08-16T09:19:48.241Z INFO webdriver: DATA {
+  script: 'isElementDisplayed(...) [7962 bytes]',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '79080bc2-5fd5-4fae-941d-fd6438007c09',
+      ELEMENT: '79080bc2-5fd5-4fae-941d-fd6438007c09'
+    }
+  ]
+}
+2022-08-16T09:19:48.250Z INFO webdriver: RESULT true
+2022-08-16T09:19:48.250Z INFO webdriver: COMMAND elementClear("79080bc2-5fd5-4fae-941d-fd6438007c09")
+2022-08-16T09:19:48.251Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/79080bc2-5fd5-4fae-941d-fd6438007c09/clear
+2022-08-16T09:19:48.297Z INFO webdriver: COMMAND elementSendKeys("79080bc2-5fd5-4fae-941d-fd6438007c09", "rajkumar@spice.mdt")
+2022-08-16T09:19:48.298Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/79080bc2-5fd5-4fae-941d-fd6438007c09/value
+2022-08-16T09:19:48.298Z INFO webdriver: DATA { text: 'rajkumar@spice.mdt' }
+2022-08-16T09:19:51.405Z INFO webdriver: COMMAND takeScreenshot()
+2022-08-16T09:19:51.406Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/screenshot
+2022-08-16T09:19:51.499Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABhIAAAMSCAYAAACPk16JAAAAAXNSR0IArs4c6...
+2022-08-16T09:19:51.524Z INFO webdriver: COMMAND findElement("css selector", "input[name="password"]")
+2022-08-16T09:19:51.525Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element
+2022-08-16T09:19:51.525Z INFO webdriver: DATA { using: 'css selector', value: 'input[name="password"]' }
+2022-08-16T09:19:51.539Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '8f60cbf6-78c0-4a2a-b0f3-bf04645efef7'
+}
+2022-08-16T09:19:51.542Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2022-08-16T09:19:51.542Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/execute/sync
+2022-08-16T09:19:51.542Z INFO webdriver: DATA {
+  script: 'isElementDisplayed(...) [7962 bytes]',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '8f60cbf6-78c0-4a2a-b0f3-bf04645efef7',
+      ELEMENT: '8f60cbf6-78c0-4a2a-b0f3-bf04645efef7'
+    }
+  ]
+}
+2022-08-16T09:19:51.553Z INFO webdriver: RESULT true
+2022-08-16T09:19:51.554Z INFO webdriver: COMMAND elementClear("8f60cbf6-78c0-4a2a-b0f3-bf04645efef7")
+2022-08-16T09:19:51.554Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/8f60cbf6-78c0-4a2a-b0f3-bf04645efef7/clear
+2022-08-16T09:19:51.599Z INFO webdriver: COMMAND elementSendKeys("8f60cbf6-78c0-4a2a-b0f3-bf04645efef7", "<Screenshot[base64]>")
+2022-08-16T09:19:51.600Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/8f60cbf6-78c0-4a2a-b0f3-bf04645efef7/value
+2022-08-16T09:19:51.600Z INFO webdriver: DATA { text: 'Spice123' }
+2022-08-16T09:19:53.653Z INFO webdriver: COMMAND takeScreenshot()
+2022-08-16T09:19:53.653Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/screenshot
+2022-08-16T09:19:53.756Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABhIAAAMSCAYAAACPk16JAAAAAXNSR0IArs4c6...
+2022-08-16T09:19:53.759Z INFO webdriver: COMMAND findElement("css selector", "button[type="submit"]")
+2022-08-16T09:19:53.759Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element
+2022-08-16T09:19:53.760Z INFO webdriver: DATA { using: 'css selector', value: 'button[type="submit"]' }
+2022-08-16T09:19:53.774Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '0e6b36b0-e075-4e00-8d27-fc8e3e5863e4'
+}
+2022-08-16T09:19:53.779Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2022-08-16T09:19:53.780Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/execute/sync
+2022-08-16T09:19:53.780Z INFO webdriver: DATA {
+  script: 'isElementDisplayed(...) [7962 bytes]',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': '0e6b36b0-e075-4e00-8d27-fc8e3e5863e4',
+      ELEMENT: '0e6b36b0-e075-4e00-8d27-fc8e3e5863e4'
+    }
+  ]
+}
+2022-08-16T09:19:53.787Z INFO webdriver: RESULT true
+2022-08-16T09:19:53.788Z INFO webdriver: COMMAND elementClick("0e6b36b0-e075-4e00-8d27-fc8e3e5863e4")
+2022-08-16T09:19:53.788Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/0e6b36b0-e075-4e00-8d27-fc8e3e5863e4/click
+2022-08-16T09:19:55.851Z INFO webdriver: COMMAND takeScreenshot()
+2022-08-16T09:19:55.851Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/screenshot
+2022-08-16T09:19:55.973Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABhIAAAMSCAYAAACPk16JAAAAAXNSR0IArs4c6...
+2022-08-16T09:19:55.977Z INFO webdriver: COMMAND findElement("xpath", "//div[@class="subtle-small-text"]/preceding-sibling::div")
+2022-08-16T09:19:55.977Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element
+2022-08-16T09:19:55.977Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//div[@class="subtle-small-text"]/preceding-sibling::div'
+}
+2022-08-16T09:19:56.014Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f93014d3-db5d-4e29-8d35-fd1eac9ddf9a'
+}
+2022-08-16T09:19:56.016Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2022-08-16T09:19:56.017Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/execute/sync
+2022-08-16T09:19:56.018Z INFO webdriver: DATA {
+  script: 'isElementDisplayed(...) [7962 bytes]',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': 'f93014d3-db5d-4e29-8d35-fd1eac9ddf9a',
+      ELEMENT: 'f93014d3-db5d-4e29-8d35-fd1eac9ddf9a'
+    }
+  ]
+}
+2022-08-16T09:19:56.025Z INFO webdriver: RESULT true
+2022-08-16T09:19:56.025Z INFO webdriver: COMMAND getElementText("f93014d3-db5d-4e29-8d35-fd1eac9ddf9a")
+2022-08-16T09:19:56.026Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/f93014d3-db5d-4e29-8d35-fd1eac9ddf9a/text
+2022-08-16T09:19:56.043Z INFO webdriver: RESULT Rajkumar M
+2022-08-16T09:19:56.044Z INFO webdriver: COMMAND findElement("xpath", "//div[@class="subtle-small-text"]/preceding-sibling::div")
+2022-08-16T09:19:56.044Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element
+2022-08-16T09:19:56.044Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//div[@class="subtle-small-text"]/preceding-sibling::div'
+}
+2022-08-16T09:19:56.050Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'f93014d3-db5d-4e29-8d35-fd1eac9ddf9a'
+}
+2022-08-16T09:19:56.052Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2022-08-16T09:19:56.052Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/execute/sync
+2022-08-16T09:19:56.052Z INFO webdriver: DATA {
+  script: 'isElementDisplayed(...) [7962 bytes]',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': 'f93014d3-db5d-4e29-8d35-fd1eac9ddf9a',
+      ELEMENT: 'f93014d3-db5d-4e29-8d35-fd1eac9ddf9a'
+    }
+  ]
+}
+2022-08-16T09:19:56.058Z INFO webdriver: RESULT true
+2022-08-16T09:19:56.059Z INFO webdriver: COMMAND getElementText("f93014d3-db5d-4e29-8d35-fd1eac9ddf9a")
+2022-08-16T09:19:56.059Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/f93014d3-db5d-4e29-8d35-fd1eac9ddf9a/text
+2022-08-16T09:19:56.066Z INFO webdriver: RESULT Rajkumar M
+2022-08-16T09:19:56.066Z INFO webdriver: COMMAND takeScreenshot()
+2022-08-16T09:19:56.067Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/screenshot
+2022-08-16T09:19:56.169Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABhIAAAMSCAYAAACPk16JAAAAAXNSR0IArs4c6...
+2022-08-16T09:19:56.176Z INFO webdriver: COMMAND findElement("xpath", "//div[@class="subtle-small-text"]")
+2022-08-16T09:19:56.176Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element
+2022-08-16T09:19:56.176Z INFO webdriver: DATA { using: 'xpath', value: '//div[@class="subtle-small-text"]' }
+2022-08-16T09:19:56.187Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'e671da62-c16a-4702-bb99-23aa3a42bed9'
+}
+2022-08-16T09:19:56.188Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2022-08-16T09:19:56.188Z INFO webdriver: [POST] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/execute/sync
+2022-08-16T09:19:56.188Z INFO webdriver: DATA {
+  script: 'isElementDisplayed(...) [7962 bytes]',
+  args: [
+    {
+      'element-6066-11e4-a52e-4f735466cecf': 'e671da62-c16a-4702-bb99-23aa3a42bed9',
+      ELEMENT: 'e671da62-c16a-4702-bb99-23aa3a42bed9'
+    }
+  ]
+}
+2022-08-16T09:19:56.196Z INFO webdriver: RESULT true
+2022-08-16T09:19:56.196Z INFO webdriver: COMMAND getElementText("e671da62-c16a-4702-bb99-23aa3a42bed9")
+2022-08-16T09:19:56.196Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/element/e671da62-c16a-4702-bb99-23aa3a42bed9/text
+2022-08-16T09:19:56.209Z INFO webdriver: RESULT Super Admin
+2022-08-16T09:19:56.209Z INFO webdriver: COMMAND takeScreenshot()
+2022-08-16T09:19:56.209Z INFO webdriver: [GET] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce/screenshot
+2022-08-16T09:19:56.348Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABhIAAAMSCAYAAACPk16JAAAAAXNSR0IArs4c6...
+2022-08-16T09:19:56.367Z INFO webdriver: COMMAND deleteSession()
+2022-08-16T09:19:56.367Z INFO webdriver: [DELETE] http://localhost:9515/session/d1c5882e14a84c6492d63d3d249b2fce

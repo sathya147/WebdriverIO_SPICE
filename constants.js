@@ -1,0 +1,7 @@
+
+module.exports = {
+
+    LoginPageTitle: 'SPICE'
+
+
+}

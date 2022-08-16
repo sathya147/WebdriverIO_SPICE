@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660435239217' stop='1660435253070'>
+    <name>SECOND TEST</name>
+    <title>SECOND TEST</title>
+    <test-cases>
+        <test-case start='1660435239223' status='failed' stop='1660435253064'>
+            <name>open site</name>
+            <title>open site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ab0bed25-4ccf-49b8-b918-ea96da3d8737-attachment.png' type='image/png' size='70143'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("input[name="email"]") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("input[name="email"]") still not displayed after 10000ms
+                    at async ElementUtils.doEnterText (C:\spice-pom\utils\elementUtils.js:6:9)
+                    at async LoginPage.enterUsername (C:\spice-pom\pages\login.page.js:19:9)
+                    at async UserContext.&lt;anonymous> (C:\spice-pom\test\allsuite1.js:12:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
