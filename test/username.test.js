@@ -42,6 +42,5 @@ describe("Username Test", function() {
     it("Verify Logged In User Role", async function() {
         expect(await homePage.getRole()).toBe(configs.roleSuperAdmin)
     })
-    //sathya
 
 })
