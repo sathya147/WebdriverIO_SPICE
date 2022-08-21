@@ -249,7 +249,7 @@ exports.config = {
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
     beforeTest: function (test, context) {
-        console.log("SATHYA beforeTest ", test);
+        // console.log("SATHYA beforeTest ", test);
     },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
@@ -274,7 +274,7 @@ exports.config = {
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
     afterTest: async function(test, context, { error, result, duration, passed, retries }) {
-        console.log("SATHYA FROM HOOKS - afterTest ", test);
+        // console.log("SATHYA FROM HOOKS - afterTest ", test);
         if (!passed) {
             await browser.takeScreenshot()
         }

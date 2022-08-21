@@ -3,7 +3,12 @@ class ElementUtils {
 
     //Enter Text (clear and enter)
     async doEnterText(element, textValue) {
+        // try {  //the try catch is not required here since it is caputred in page actions, so that particular log can be created
         await element.waitForDisplayed()
+        // }
+        // catch(error) {
+        //     throw new Error("Element not found ________________")
+        // }
         await element.setValue(textValue)
     }
 

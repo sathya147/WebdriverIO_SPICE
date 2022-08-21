@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661064038549' stop='1661064045728'>
+    <name>SECOND TEST</name>
+    <title>SECOND TEST</title>
+    <test-cases>
+        <test-case start='1661064038550' status='passed' stop='1661064042301'>
+            <name>open site</name>
+            <title>open site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ba692432-9a69-4f08-9bb3-891f1ea6f6d1-attachment.png' type='image/png' size='35812'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064042302' status='passed' stop='1661064042449'>
+            <name>verify Login Page Title</name>
+            <title>verify Login Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a2576389-47d0-47f8-985b-49b1a8963508-attachment.png' type='image/png' size='35812'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064042449' status='passed' stop='1661064045722'>
+            <name>Enter username</name>
+            <title>Enter username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1d598df0-b776-4958-9f8e-f23edfa08fd0-attachment.png' type='image/png' size='40633'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

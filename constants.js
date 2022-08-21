@@ -1,7 +1,8 @@
 
 module.exports = {
 
-    LoginPageTitle: 'SPICE'
+    LoginPageTitle: 'SPICE',
+    HomePageTitle: 'SPICE'
 
 
 }

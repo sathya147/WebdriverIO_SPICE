@@ -12,12 +12,27 @@ class HomePage {
         await elementUtils.getTitle()
     }
 
+    //Verify Home Page Title
+    async verifyHomePageTitle() {
+        await expect(browser).toHaveTitleContaining(constants.HomePageTitle)
+    }
+
     async getUsersName() {
         return await elementUtils.doGetText(this.getLoggedInUser())
     }
 
+    //Verify Logged-in username
+    async verifyLoggedInUser(theUsersName) {
+        expect(await this.getUsersName()).toBe(theUsersName)
+    }
+
     async getRole() {
         return await elementUtils.doGetText(this.getUserRole())
+    }
+
+    //Verify Logged-in user's Role
+    async verifyLoggedInUserRole(theUsersRole) {
+        expect(await this.getRole()).toBe(theUsersRole)
     }
 
     //Action on Tanzania

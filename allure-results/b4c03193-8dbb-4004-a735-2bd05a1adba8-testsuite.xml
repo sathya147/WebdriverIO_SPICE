@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661064358219' stop='1661064369142'>
+    <name>Username Test</name>
+    <title>Username Test</title>
+    <test-cases>
+        <test-case start='1661064358220' status='passed' stop='1661064361888'>
+            <name>open site</name>
+            <title>open site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b2a68a88-f4a1-4325-a1bc-a6b1153cb4c3-attachment.png' type='image/png' size='35812'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064361889' status='passed' stop='1661064362013'>
+            <name>verify Login Page Title</name>
+            <title>verify Login Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eed020e7-36b2-4137-8070-bb94930de426-attachment.png' type='image/png' size='35812'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064362014' status='passed' stop='1661064364288'>
+            <name>Enter username</name>
+            <title>Enter username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='efdf7cf2-18ec-4981-a8bf-1fea841fa1fc-attachment.png' type='image/png' size='40633'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064364298' status='passed' stop='1661064366575'>
+            <name>Enter Password</name>
+            <title>Enter Password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='41dad533-998f-4b33-9eab-2a1442ce0446-attachment.png' type='image/png' size='41341'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064366575' status='passed' stop='1661064368786'>
+            <name>Click Login</name>
+            <title>Click Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5ac23517-8303-4980-b04b-e2f001f0c2a4-attachment.png' type='image/png' size='70143'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064368787' status='passed' stop='1661064368947'>
+            <name>Verify Logged In User</name>
+            <title>Verify Logged In User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='819bb434-3e36-46c6-9186-f2684a9f7845-attachment.png' type='image/png' size='70143'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661064368954' status='failed' stop='1661064369141'>
+            <name>Verify Logged In User Role</name>
+            <title>Verify Logged In User Role</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='637406ec-a209-474e-a793-def6733cca68-attachment.png' type='image/png' size='70143'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Super Admin' to be 'Superw Admin'.      
+                      actual expected
+                      
+                      'SuperSuperw Admin'
+                      </message>
+                <stack-trace>Error: Expected 'Super Admin' to be 'Superw Admin'.
+                    at &lt;Jasmine>
+                    at &lt;Jasmine>
+                    at HomePage.verifyLoggedInUserRole (C:\spice-pom\pages\home.page.js:35:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

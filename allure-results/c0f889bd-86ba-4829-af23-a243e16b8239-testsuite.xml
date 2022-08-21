@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661063103757' stop='1661063121180'>
+    <name>SECOND TEST</name>
+    <title>SECOND TEST</title>
+    <test-cases>
+        <test-case start='1661063103758' status='passed' stop='1661063107718'>
+            <name>open site</name>
+            <title>open site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3e235066-5e8d-4526-b1aa-7b0d07a78bd2-attachment.png' type='image/png' size='35812'/>
+            </attachments>
+        </test-case>
+        <test-case start='1661063107719' status='failed' stop='1661063117875'>
+            <name>verify Login Page Title</name>
+            <title>verify Login Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e1c494ff-6606-4422-80f0-a1e7aac6fa80-attachment.png' type='image/png' size='35812'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "SAPICE"
+                Received: "SPICE"</message>
+                <stack-trace>Error
+                    at &lt;Jasmine>
+                    at UserContext.&lt;anonymous> (C:\spice-pom\test\userExcep.js:13:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1661063117875' status='passed' stop='1661063121164'>
+            <name>Enter username</name>
+            <title>Enter username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e02f1db6-83b2-4bcb-9d7e-927b09bf1e79-attachment.png' type='image/png' size='40633'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
